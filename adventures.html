@@ -14,6 +14,21 @@
             background-repeat: no-repeat;
             color: #fff;
         }
+        @keyframes slider {
+            0%{background-image: url(/25351.jpg);}
+            33.33%{background-image: url(/download.jpeg);}
+            66.66%{background-image: url(/glowing-mountains-wallpaper-preview.jpg);}
+        }
+        @media only screen and (max-width:767px) {
+             .hero h1 {
+                font-size: 40px;
+            }
+            .nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
         nav{
             display: flex;
           justify-content: space-between;
